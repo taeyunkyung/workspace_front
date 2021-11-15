@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>스타일시트</title>
+        <style>            
+            ol {
+                list-style-type: none;
+            }
+            .a>li {
+                background-image: url("./img/star.jpg");
+                background-repeat: no-repeat;
+                background-size: 11px 11px;
+                background-position: left center;
+
+                border-right: 2px solid #000000;
+                float: left;
+               
+                margin: 15px;
+                padding-left: 10px;
+                padding-right: 30px;
+            }
+            #last1 {border-right: none;}
+            .b>li {
+                background-image: url("./img/star.jpg");
+                background-repeat: no-repeat;
+                background-size: 11px 11px;
+                background-position: left center;
+                border-right: 2px solid #000000;
+
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                border-left: 1px solid #000000;
+                border-right: 2px solid #000000;
+                float: left;
+                
+                margin: 15px;
+                padding-left: 10px;
+                padding-right: 30px;
+            }
+            #last2 {border-right: 2px solid #ff0000;}            
+        </style>
+    </head>
+
+    <body>
+        <ol class="a">
+           <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li id="last1">메뉴5</li>
+        </ol>
+        <!-- <br> -->
+        <ol class="b">
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li id="last2">메뉴5</li>
+        </ol>
+    </body>
+</html>

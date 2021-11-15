@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* contents */
+#img {float: left;}
+#img>img {width: 200px; height: 200px; margin: 20px;}
+
+#txt {float: left;}
+#txt>h3 {
+    margin: 10px;
+    padding: 10px;
+}
+#txt>h4 {
+    margin: 10px;
+    padding: 10px;
+}
+#txt>h5 {
+    margin: 10px;
+    padding: 10px;
+}
+#txt>h5>a {color: #000000;}

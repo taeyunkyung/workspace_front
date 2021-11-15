@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>레이아웃</title>
+        <style>
+            /* clearfix */
+            .clearfix{*zoom:1;}
+            .clearfix:before, .clearfix:after {
+                display: block; 
+                content: ""; 
+                line-height: 0;
+            }
+            .clearfix:after {clear: both;}
+
+            .bg {
+                width: 850px;
+                background-color: #bcbcbc;
+            }            
+            .blue {
+                width: 400px;
+                background-color: #00ccff;
+                float: left;                
+            }
+            .green {
+                width: 400px;
+                background-color: #ccff00;
+                float: left;
+            }
+            .below {
+                width: 850px;
+                height: 30px;
+                background-color: #ffff00;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg clearfix">
+            <div class="blue">
+                blue
+            </div>
+            <div class="green">
+                green
+                <br>
+                green
+                <br>
+                green
+                <br>
+            </div>
+        </div>
+        
+        <div class="below">
+            below
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {
+    margin: 0px; padding: 0px;
+}
+body {
+    font-family: "맑은 고딕", 돋움, 굴림;
+    font-size: 12px;
+}
+li {list-style-type: none;}
+a:link {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:visitied {text-decoration: none; color: #000000;}
+#wrap {
+    width: 1000px; height: 50px;
+    margin: 0px auto;
+}
+.clearfix {*zoom:1;}
+.clearfix:before, .clearfix:after {
+    display: block; content: ""; line-height: 0;
+}
+.clearfix:after {clear: both;}
+
+/* header, nav, footer */
+#header {border-bottom: 1px solid #a6a6a6;}
+#header>h1>a {
+    float: left;
+    margin: 10px 0px 10px 5px;
+    font-size: 35px;
+    color: #ccff00;
+}
+#header>ul {float: right;}
+#header>ul>li {
+    float: left;
+    margin: 10px;
+    padding-top: 30px;    
+}
+#header>ul>li>a {color: #000000;}
+#nav>ol {border-bottom: 1px solid #a6a6a6;}
+#nav>ol>li>a {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* contents */
+#footer {
+    background-color: #cfcfcf;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* contents: main-write ~ */
+#main-write>#c-select>p {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    
+}
+#main-write>#c-select {margin: 10px 10px 0px 10px;}
+#main-write>c-select>div {
+    float: left;    
+}
+#main-write>#c-title {padding-top: 2px;}
+#main-write>#c-title>p {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 65px;    
+}
+#main-write>#c-title>input {
+    float: left;
+    width: 650px;
+}
+#main-write>#c-pw {padding-top: 2px;}
+#main-write>#c-pw>p {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 41px;
+}
+#main-write>#c-pw>input {
+    float: left;
+    width: 150px;
+}
+#main-write>#c-radio {padding-top: 2px;}
+#main-write>#c-radio>p {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 29px;
+}
+#main-write>#c-radio>.rdo {float: left;}
+
+#main-write>#c-chk {padding-top: 2px;}
+#main-write>#c-chk>p {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 29px;
+}
+#main-write>#c-chk>.chk {float: left;}
+label {margin-left: 12px;}
+#main-write>#c-tarea>textarea {
+    margin-left: 30px;
+    width: 741px; height: 300px;
+}
+#main-write>#c-upload {
+    padding-top: 8px; padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cfcfcf;
+}
+#main-write>#c-upload>p {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 41px;
+}
+#main-write>#c-upload>input {float: left;}
+#main-write>#c-button {
+    margin-bottom: 15px; text-align: center;}
+#main-write>#c-button>button {
+    float: left;
+    width: 70px; height: 30px;    
+}
+#start {margin-left: 300px; margin-right: 5px;}

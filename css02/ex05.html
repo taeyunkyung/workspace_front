@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>스타일시트</title>
+        <style>
+            .box {
+                width: 200px;
+                height: 160px;
+                border: 2px solid #000000;
+            }
+            .div-round-all {border-radius: 20px;}
+            .div-round-each {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 40px;
+            }
+
+            /* .div-round-all {
+                width: 200px;
+                height: 160px;
+                border: 2px solid #000000;
+                border-radius: 20px;
+            }
+            .div-round-each {
+                width: 200px;
+                height: 160px;
+                border: 2px solid #000000;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 40px;
+            } */
+            #save {
+                width: 100px;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+                background-color: #dfdfdf;
+            }
+            #delete {
+                width: 100px;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+                background-color: #ffddff;
+            }
+            #revise {
+                width: 100px;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+                background-color: #ccccff;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="div-round-all">
+            라운드 적용
+        </div>
+        <br>
+        <div class="div-round-each">
+            라운드 적용
+        </div> -->
+        <div class="box div-round-all">
+            라운드 적용
+        </div>
+        <br>
+        <div class="box div-round-each">
+            라운드 적용
+        </div>
+        <br>
+        <button type="button" id="save">저장버튼</button><br>
+        <button type="button" id="delete">삭제버튼</button><br>
+        <button type="button" id="revise">수정버튼</button>
+    </body>
+</html>

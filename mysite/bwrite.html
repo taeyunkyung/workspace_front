@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>경태윤의 홈페이지 입니다.</title>
+        <link rel="stylesheet" href="./assets/css/common.css">
+        <link rel="stylesheet" href="./assets/css/board.css">
+        <link rel="stylesheet" href="./assets/css/bwrite.css">
+    </head>   
+
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">
+                <h1><a href="">My Site</a></h1>
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            <div id="nav">
+                <ol class="clearfix">
+                    <li><a href="">입사지원서</a></li>
+                    <li><a href="">게시판</a></li>
+                    <li><a href="">갤러리</a></li>
+                    <li><a href="">방명록</a></li>
+                </ol>
+            </div>
+
+            <div id="contents" class="clearfix">
+                <div id="aside" class="clearfix">                    
+                    <h3>게시판</h3>
+                    <h4><a href="">일반 게시판</a></h4>
+                    <h4><a href="">댓글 게시판</a></h4>
+                    <h4><a href="">첨부 게시판</a></h4>
+                </div>
+                <div id="main" class="clearfix">
+                    <div id="main-header" class="clearfix">
+                        <h3>일반 게시판</h3>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li id="end">일반 게시판</li>
+                        </ul>
+                    </div>
+
+                    <div id="main-write" class="clearfix">
+                        <form action="" method="post">
+                            <div id="c-select" class="clearfix">                            
+                                <p>게시판선택</p>
+                                <div>
+                                    <select name="board">
+                                        <option value="">선택해주세요</option>
+                                        <option value="write">일반게시판</option>
+                                        <option value="re">댓글게시판</option>
+                                        <option value="upload">첨부게시판</option>
+                                    </select>
+                                </div>                          
+                            </div>
+                            <div id="c-title" class="clearfix">
+                                <p>제목</p>
+                                <input type="text" name="" value="" placeholder="제목을 입력해 주세요">
+                            </div>
+                            <div id="c-pw" class="clearfix">
+                                <p>비밀번호</p>
+                                <input type="password" placeholder="패스워드를 입력하세요">
+                            </div>
+                            <div id="c-radio" class="clearfix">
+                                <p>공개범위</p>
+                                <div class="rdo">
+                                    <label for="rdo-me">본인</label>
+                                    <input type="radio" id="rdo-me" name="rdo" value="me">
+                                    <label for="rdo-logged">로그인회원</label>
+                                    <input type="radio" id="rdo-logged" name="rdo" value="logged">
+                                    <label for="rdo-friend">친구</label>
+                                    <input type="radio" id="rdo-friend" name="rdo" value="friend">
+                                    <label for="rdo-all">전체</label>
+                                    <input type="radio" id="rdo-all" name="rdo" value="all">
+                                </div>
+                            </div>
+                            <div id="c-chk" class="clearfix">
+                                <p>허용범위</p>
+                                <div class="chk">
+                                    <label for="chk-re">댓글허용</label>
+                                    <input type="checkbox" id="chk-re" name="chk" value="re">
+                                    <label for="chk-reply">답글허용</label>
+                                    <input type="checkbox" id="chk-reply" name="chk" value="reply">
+                                    <label for="chk-like">좋아요허용</label>
+                                    <input type="checkbox" id="chk-like" name="chk" value="like">
+                                </div>            
+                            </div>
+                            <div id="c-tarea" class="clearfix">
+                                <textarea></textarea>
+                            </div>
+                            <div id="c-upload" class="clearfix">
+                                <p>첨부파일</p>
+                                <input type="file">
+                            </div>
+                            <div id="c-button" class="clearfix">
+                                <button type="button" id="start">등록</button>
+                                <button type="button">초기화</button>
+                            </div>
+                        </form>                        
+                    </div>                    
+                </div>             
+            </div>
+            <div id="footer" class="clearfix">
+                <div>
+                    Copyright © 2021 경태윤 All rights reserved.
+                </div>     
+            </div>
+        </div>
+    </body>
+</html>

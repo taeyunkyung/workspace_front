@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* contents: main-write */
+.w-layout {
+    margin: 10px; padding-bottom: 5px;    
+}
+.f-txt {
+    margin-left: 10px;
+    display: inline-block; vertical-align: top;
+    width: 70px;    
+}
+
+input[type="text"] {width: 650px;}
+input[type="password"] {width: 150px;}
+
+.rdochk>label {margin-left: 12px;}
+/* outlier1 - main label */
+#mainlabel1 {margin-left: 10px;} #mainlabel2 {margin-left: 10px;}
+/* outlier2 - rdochk first margin */
+#rdochk-first {margin-left: 0px;}
+
+/* outlier3 - label center */
+#l-center {height: 300px; line-height: 300px;}
+textarea {
+    /* margin-left: 10px; */
+    width: 650px; height: 300px;
+}
+
+/* contents: button */
+#c-button {
+    margin-top: 25px; border-top: 1px solid #a6a6a6;
+    padding-top: 10px;
+    margin-bottom: 15px; text-align: center;}
+#c-button>button {
+    float: left;
+    width: 70px; height: 30px;    
+    cursor: pointer; background-color: #e6e6e6; 
+    border: 1px solid #a6a6a6; border-radius: 5px;
+}
+#c-button>button:hover {background-color: #a6a6a6;}
+#b-start {margin-left: 300px; margin-right: 5px;}

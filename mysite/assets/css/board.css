@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* contents: board (main + aside) */
+#main {
+    float: left;
+    width: 80%;
+    margin-top: 10px;    
+}
+#aside {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+#aside>h2 {
+    background-color: #cfcfcf;
+    height: 60px; line-height: 60px;
+    text-align: center;
+}
+#aside>ul>li {
+    border: 1px solid #000000;
+    margin-top: 5px;
+    padding: 5px 0px 5px 5px;
+    font-weight: lighter;
+}
+#aside>ul>li>a {color: #000000;}
+
+#main-header {
+    border-bottom: 1px solid #a6a6a6;
+    margin-left: 10px;    
+}
+#main-header>h3 {
+    float: left;
+    margin: 10px;
+    padding-top: 20px;    
+}
+#main-header>ul {float: right;}
+#main-header>ul>li {
+    float: left;
+    margin: 5px;
+    padding-top: 25px;
+}
+#main-header>ul>li:after {
+    content: '>';
+    padding-left: 10px;
+}
+#main-header>ul>#end:after {content: ""; padding: 0px;}
